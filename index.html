@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Engineer Portfolio</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --fg: #111111;
+      --muted: #666666;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --card: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .title {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      font-size: 0.75rem;
+      margin-right: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .tag:hover {
+      background: var(--accent-hover);
+    }
+
+    .intro {
+      margin-bottom: 2rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+
+    .social-links a svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>김태원</h1>
+    <p class="title">AI Engineer</p>
+
+    <section class="section">
+      <h2>소개</h2>
+      <div class="intro">
+        인공지능과 데이터 사이언스를 연구하는 엔지니어입니다. 머신러닝 모델 개발, 데이터 파이프라인 구축, 그리고 AI 시스템 배포에 집중하고 있습니다.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>주요 역량</h2>
+      <div>
+        <span class="tag">Python</span>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Deep Learning</span>
+        <span class="tag">TensorFlow</span>
+        <span class="tag">PyTorch</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>프로젝트</h2>
+      <div class="intro">
+        <p>여기에 주요 프로젝트를简要하게 소개합니다.</p>
+        <ul>
+          <li>추천 시스템 프로젝트</li>
+          <li>데이터 시각화 대시보드</li>
+          <li>NLP 기반 텍스트 분류 모델</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>연락처</h2>
+      <div class="contact">
+        <a href="mailto:taiyoung.kim@example.com">이메일 보내기</a>
+      </div>
+      <div class="social-links">
+        <!-- 간단한 소셜 링크 -->
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
